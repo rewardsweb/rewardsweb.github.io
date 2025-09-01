@@ -1,4 +1,4 @@
-# Rewardsweb – Propuesta de Integración para Verifiers / Bancos
+# Propuesta de Integración para Verifiers / Bancos
 
 Este documento describe en 4 pasos cómo Rewardsweb sugiere conectarse con un **Verifier** o **Banco** para el flujo de integración y verificación de transacciones.
 
@@ -9,8 +9,8 @@ Este documento describe en 4 pasos cómo Rewardsweb sugiere conectarse con un **
 
 Cada paso incluye:
 - Descripción funcional
+- Diagrama de secuencia
 - Endpoints propuestos
 - Ejemplo de request/response
-- Diagrama de flujo
 
 ---
