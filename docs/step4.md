@@ -4,6 +4,10 @@
 El verificador transferirá a Rewardsweb un archivo de liquidación, utilizando SFTP o una carga de archivo vía HTTPS.
 
 ---
+### 🖼️ Diagrama de Secuencia
+![Paso 4](assets/step4.png)
+
+---
 
 ### 🔗 Endpoints / Métodos propuestos
 - `POST /settlements/upload` (para carga de archivo)
@@ -12,7 +16,7 @@ El verificador transferirá a Rewardsweb un archivo de liquidación, utilizando 
 ---
 
 ### 🧩 Ejemplo de conexión
-```http
+```
 sftp -i ~/.ssh/verifier_key svc-verifier@sftp.rewardsweb.com << 'EOF'
 cd /incoming/settlements
 put settlements_20250809_001.csv
@@ -23,7 +27,8 @@ EOF
 ---
 
 ### 📂 Ejemplo de archivo (CSV)
-```csv
+```
 trans_id,card_id,mid,amount,currency_code,purchase_date
 T123456789,1234567890,M12345,350000,GTQ,2025-08-29T12:30:00Z
 T987654321,9876543210,M67890,500000,GTQ,2025-08-29T13:00:00Z
+```

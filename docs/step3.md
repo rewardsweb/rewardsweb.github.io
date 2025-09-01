@@ -4,6 +4,10 @@
 Cuando un PAN realiza una transacción en un MID registrado, el verificador deberá enviar una copia de la transacción a Rewardsweb.
 
 ---
+### 🖼️ Diagrama de Secuencia
+![Paso 3](assets/step3.png)
+
+---
 
 ### 🔗 Endpoints propuestos
 - `POST /api/v1/transactions`
@@ -11,7 +15,7 @@ Cuando un PAN realiza una transacción en un MID registrado, el verificador debe
 ---
 
 ### 🧩 Ejemplo de request
-```http
+```
 curl -X POST https://api.rewardsweb.com/v1/transactions \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -H "Content-Type: application/json" \
@@ -26,3 +30,4 @@ curl -X POST https://api.rewardsweb.com/v1/transactions \
     "mcc": "5814",
     "merchant_name": "Pollo Campero",
   }'
+```

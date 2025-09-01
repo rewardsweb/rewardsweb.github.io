@@ -17,7 +17,7 @@ Rewardsweb enviará a un endpoint la lista de PAN enrolados en la plataforma, ju
 ---
 
 ### 🧩 Ejemplo de request
-```http
+```
 curl -X POST https://verifier.com/api/v1/cards \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer <token>" \
@@ -26,3 +26,4 @@ curl -X POST https://verifier.com/api/v1/cards \
     "card_id": "CARDID1",
     "pan": "4111111111111111"
   }'
+```
