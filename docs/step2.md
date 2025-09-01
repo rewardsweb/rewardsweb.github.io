@@ -5,6 +5,11 @@ Rewardsweb enviará a un endpoint la lista de PAN enrolados en la plataforma, ju
 
 ---
 
+### 🖼️ Diagrama de Secuencia
+![Paso 2](assets/step2.png)
+
+---
+
 ### 🔗 Endpoints propuestos
 - `POST /api/v1/cards`
 - `DELETE /api/v1/cards/{card_id}`

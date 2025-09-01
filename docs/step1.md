@@ -5,7 +5,7 @@ Rewardsweb notificará a un endpoint sobre los comercios participantes y los pro
 
 ---
 
-### Diagrama de Secuencia
+### 🖼️ Diagrama de Secuencia
 ![Paso 1](assets/step1.png)
 
 ---
