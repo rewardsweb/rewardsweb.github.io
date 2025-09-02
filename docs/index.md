@@ -1,6 +1,6 @@
-# Propuesta de Integración para Verificadores
+# Propuesta de Integración para Verificadores / Bancos
 
-Este documento describe en 4 pasos cómo Rewardsweb sugiere conectarse con un **Verificador** para el flujo de integración y verificación de transacciones.
+Este documento describe en 4 pasos cómo Rewardsweb sugiere conectarse con un **Verificador** o **Banco** para el flujo de integración y verificación de transacciones.
 
 - [Paso 1 – Alta/Baja de Comercios](step1.md)
 - [Paso 2 – Alta/Baja de Tarjetas](step2.md)
